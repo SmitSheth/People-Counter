@@ -5,7 +5,7 @@ This project counts people coming in and going out of structures such as buildin
 * **Ubuntu 14.04 and higher**
 * **OpenCV**
 
-###Usage
+### Usage
 ```
 $ git clone https://github.com/SmitSheth/People-Counter
 $ cd darknet
