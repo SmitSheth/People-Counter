@@ -7,6 +7,7 @@ This project counts people coming in and going out of structures such as buildin
 
 ### Demo
 ![](demo.gif)
+
 ### Usage
 ```
 $ git clone https://github.com/SmitSheth/People-Counter.git
@@ -20,4 +21,13 @@ $ make
 $ ./darknet detector demo cfg/coco.data cfg/yolov2.cfg yolo.weights <input-video-path> -prefix 0
 # Use yolov3
 $ ./darknet detector demo cfg/coco.data cfg/yolov3.cfg yolov3.weights <input-video-path> -prefix 0
+```
+### Citation
+```
+@misc{darknet13,
+  author =   {Joseph Redmon},
+  title =    {Darknet: Open Source Neural Networks in C},
+  howpublished = {\url{http://pjreddie.com/darknet/}},
+  year = {2013--2016}
+}
 ```
